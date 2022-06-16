@@ -5,7 +5,7 @@ const readerRouter = require ('./routes/reader');
 app.use (express.json());
 app.use ('/readers', readerRouter)
 
-app.get('/', (req, res) => {
+app.get('/', (_, res) => {
     res.status(200).json({ result: "Hello World" });
 });
 
