@@ -7,6 +7,8 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.16",
     "sequelize": "^6.20.1",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8",
     "supertest": "^6.2.3"
   },
   "name": "book-library-api",
