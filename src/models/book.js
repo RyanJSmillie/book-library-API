@@ -1,7 +1,13 @@
 module.exports = (connection, Datatypes) => {
     const schema = {
-        title: Datatypes.STRING,
-        author: Datatypes.STRING,
+        title: {
+            type: Datatypes.STRING,
+            allowNull: false
+        },
+        author: {
+            type: Datatypes.STRING,
+            allowNull: false
+        },
         genre: Datatypes.STRING,
         ISBN: Datatypes.STRING
     };
